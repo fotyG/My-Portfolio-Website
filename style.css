@@ -44,3 +44,19 @@ nav a {
     display: inline-block;
     max-width: 30rem;
 }
+
+h2 {
+    text-align: center;
+}
+
+.projects a {
+    display: inline-block;
+}
+
+#myStyle img {
+    height: 20rem;
+}
+
+#myStyle {
+    display: none;
+}

@@ -1,0 +1,134 @@
+html {
+    font-family: 'Mali', cursive;
+    font-size: 16px;
+}
+main {
+    margin-top: 4.21rem;
+    /* border: 1px solid red; */
+}
+.mission {
+    display: flex;
+    background-image: url(./images/shitota-yuri-p0hDztR46cw-unsplash-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 28.25rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 3rem;
+    padding: 0.625rem 0.625rem;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: white;
+}
+
+.navigation li {
+    display: inline-flex;
+    /* border: 1px solid red; */
+    margin: auto 0.625rem;
+}
+
+@media only screen and (max-width: 1010px) {
+    .header h1 {
+        display: none;
+    }
+}
+
+
+.container {
+    background: rgba(211, 211, 211, 0.5);
+    /* border: 1px solid red; */
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    /* flex-shrink: 1; */
+}
+
+.brands-section {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hide;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 0.5px solid lightgrey;
+    padding-bottom: 30px;
+}
+
+.partner .backfotk {
+    max-height: 30rem;
+    width: auto;
+    /* display: block; */
+    overflow: hidden;
+    margin: 1rem 1rem;
+}
+
+@media only screen and (max-width: 1264px) {
+    .partner .backfotk {
+        height: auto;
+        max-width: 20rem;
+        /* display: block; */
+        overflow: hidden;
+        margin: 1rem 1rem; 
+    }
+}
+
+.heading {
+    text-align: center;
+    margin: 2rem;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px blue solid; */
+}
+
+.mugshot {
+
+}
+
+.team h3 {
+    /* border: solid red 1px; */
+    text-align: center;
+}
+
+.team {
+    margin: 1rem 1rem;
+    /* border: 1px red solid; */
+    display: flex;
+    max-height: 30rem;
+    max-width: 14rem;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+}
+
+
+.class {
+    font-style: italic;
+}
+
+.team img {
+    /* overflow: hidden; */
+    object-fit: contain;
+}
+
+.team h3, .team p {
+    margin: 1rem 1rem;
+}

@@ -1,0 +1,131 @@
+/* Elements ---------------------------------------------------*/
+
+html {
+    font-size: 16px;
+    font-family: 'Sono', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* Sections ---------------------------------------------------*/
+
+/* Nav bar */
+
+.navbar {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 5rem;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    height: 3rem;
+    overflow: hidden;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar ul {
+
+}
+
+.navbar li, .navbar img {
+    margin: auto 0.8rem;
+}
+
+.navbar h1 {
+    text-decoration: underline;
+}
+
+/* Mission Parallax banner */
+
+.parallax {
+    display: flex;
+    background-image: url("./assets/charlein-gracia-mqKKCsZgzXQ-unsplash.jpg");
+    height: 30%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission h2, .mission p {
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+/* Process of training */
+
+.process {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.process img {
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+
+/* Coach tesimonial */
+
+.coach {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./assets/visual-karsa-y8fS7CSN-Vw-unsplash.jpg");
+    height: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.coach img {
+    max-width: 25rem;
+    margin: auto 10rem;
+    box-shadow: 0rem 0rem 2rem;
+    border-radius: 2rem;
+}
+
+.coach h3 {
+    color: lightgoldenrodyellow;
+    margin: auto 10rem;
+    background-color: brown;
+    box-shadow: 0rem 0rem 1rem;
+    border-radius: 1rem;
+}
+
+/* Location */
+
+.location h3, .location p, .location iframe {
+    margin: 1rem auto;
+}
+
+/* Media ----------------*/
+
+@media only screen and (max-width: 1920px) {
+    .coach img {
+        max-height: 17rem;
+    }
+    .coach h3 {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,102 @@
+.navigation {
+    display: block;    
+    padding-left: 0px;
+}
+.navigation li {
+    display: inline;
+}
+
+.light-purple {
+    background-color: #aa96da;
+}
+
+.mint {
+    background-color: #c5fad5;
+}
+
+.butter {
+    background-color: #ffffd2;
+}
+
+.color-panel {
+    display: inline-block;
+    margin: 0px auto;
+    padding: 5px 20px;
+    width: 25%;
+    text-align: center;
+    min-height: 90px;
+    border-radius: 10px;
+}
+
+.firstcombo h3 {
+    font-size: 16px;
+}
+.royal-blue {
+    background-color: #00539cff;
+}
+
+.peach {
+    background-color: #eea47fff;
+}
+
+.colors, .fonts, .textstyles {
+    border: solid 2px lightgray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.raleway {
+    font-family: 'raleway', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-heading h3 {
+    text-decoration: underline;
+}
+
+.noticia * {
+    font-family: 'Noticia Text', serif;
+}
+
+* {
+    font-family: 'raleway', sans-serif;
+}
+
+.h1-style h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'raleway';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'raleway';
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'raleway';
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'raleway';
+}
+
+li {
+    font-size: 14px;
+}
+
+.hex {
+    font-style: italic;
+}
