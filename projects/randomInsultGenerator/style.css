@@ -1,0 +1,34 @@
+html {
+    font-size: 16px;
+    font-family: 'Mali', cursive;
+    background-color: #808077;
+}
+
+.generatorCT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 50%;
+    min-width: 45%;
+    /* border: solid red 1px; */
+    background-color: #AA96DA;
+    border-radius: 1rem;
+}
+
+#area {
+    margin-top: 1rem;
+    background-color: #C5FAD5;
+    padding: 1rem 1.5rem; 
+    text-align: center;
+    border-radius: 1rem;
+    display: none;
+}
+
+#button {
+    background-color: #FFFFD2;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
