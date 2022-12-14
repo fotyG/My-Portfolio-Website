@@ -34,10 +34,6 @@ body, html {
     display: inline;
 }
 
-.navbar ul {
-
-}
-
 .navbar li, .navbar img {
     margin: auto 0.8rem;
 }
